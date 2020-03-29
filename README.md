@@ -3,7 +3,7 @@
 ## Chrome or Opera
 
 * Go to *chrome://extensions/* or *opera://extensions*
-* Make sure Developer Mode is **active** on topbar
-* Click in Load unpacked
-* Browse to your folder project and upload it
+* Check if Developer Mode is **active** in topbar
+* Click em Load unpacked
+* Browse until your folder's project and upload it
 * Test and tell me if worked 4u
