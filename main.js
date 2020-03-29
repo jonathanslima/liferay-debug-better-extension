@@ -4,17 +4,7 @@ document.addEventListener('DOMNodeInserted', function (event) {
 
 	if(url.indexOf(ext) == -1){
 		var arrUrls = [
-			'https://performance.dekalb.com.br',
-			'https://alianca.sementesagroceres.com.br/',
-			'https://alcanca.sementesagroceres.com.br/',
-			'https://excelencia.agroeste.com.br',
-			'https://planodecontas.monsoy.com.br/',
-			'https://www.forecastsoja.com.br/',
-			'https://pmm.monsoy.com.br/login',
-			'https://programa.intactarr2pro.com.br',
-			'https://programas.roundup.com.br',
-			'10.42.14.102:8080',
-			'10.42.6.96:8080'
+			'urls here'
 		];
 		
 		arrUrls.map(function(i){
