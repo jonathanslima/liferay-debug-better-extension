@@ -1,6 +1,6 @@
 {
   "name": "Liferay Debug Better",
-  "version": "1.0",
+  "version": "0.1",
   "description": "Debug minified JS, HTML in Liferay in a easy way",
   "manifest_version": 2,
 	"incognito": "split",
