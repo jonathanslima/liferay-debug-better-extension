@@ -4,7 +4,7 @@ document.addEventListener('DOMNodeInserted', function (event) {
 
 	if(url.indexOf(ext) == -1){
 		var arrUrls = [
-			'list of urls here'
+			'urls here'
 		];
 		
 		arrUrls.map(function(i){
