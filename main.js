@@ -3,9 +3,7 @@ document.addEventListener('DOMNodeInserted', function (event) {
 	var ext = '?js_fast_load=0&css_fast_load=0&strip=0';
 
 	if(url.indexOf(ext) == -1){
-		var arrUrls = [
-			'urls here'
-		];
+		var arrUrls = [	'array urls here' ];
 		
 		arrUrls.map(function(i){
 			if(url.indexOf(i) !== -1 ){
@@ -14,7 +12,14 @@ document.addEventListener('DOMNodeInserted', function (event) {
 				}else{
 					var newUrl = url
 				}
-				location.href = newUrl + ext;
+
+				if(url.indexOf('?') !== -1){
+					location.href = newUrl + '&' + ext;
+
+				}else{
+					location.href = newUrl + ext;
+					
+				}
 			}
 		})
 	}
